@@ -21,7 +21,7 @@ if ('geolocation' in navigator) {
             // Haritayı kullanıcı konumuna odakla
             map.flyTo({
                 center: userLocation,
-                zoom: 18,
+                zoom: 17,
                 essential: true,
                 pitch: 70,
                 bearing: 0
