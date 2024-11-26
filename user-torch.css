@@ -132,7 +132,7 @@ body {
   text-align: center; /* Reklamı yatayda ortalar */
   z-index: 9999;    /* Reklamın üst katmanda görünmesini sağlar */
   padding: 10px 0;  /* Reklamın üst ve altındaki boşluk */
-  background-color: rgba(0, 0, 0, 0.1); /* Arka plan rengini hafif şeffaf yapar */
+  
 }
 
 .adsbygoogle {
