@@ -1,4 +1,4 @@
-
+mapboxgl.accessToken = 'pk.eyJ1IjoibWVyaWNvcmhheSIsImEiOiJjbTN1dGdicmswajlxMmxxdGdrY2lsdmUzIn0.OR0bMTfKJuTR-ZYvpdVg-g';
 // Harita ayarları
 var map = new mapboxgl.Map({
     container: 'harita',
