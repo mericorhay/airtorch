@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWVyaWNvcmhheSIsImEiOiJjbTN1dGdicmswajlxMmxxd
 // Harita ayarları
 var map = new mapboxgl.Map({
     container: 'harita',
-    style: 'mapbox://styles/mericorhay/cm3uusgj300d201sdhzma1dtx',
+    style: 'mapbox://styles/mericorhay/cm3uslqi800d001sdhnzsgpdl',
     center: [29.0, 41.0],
     zoom: 12
 });
