@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIR TORCH</title>
+    <link rel="stylesheet" href="user-torch.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class="logo">
+      <h1>AIR TORCH</h1>
+    </div>
+    <div id='harita'>
+       
+    </div>
+    <div class="fordrone">
+      <ul class="yourdroneul">
+        <i class="yourdrone1">Yükleniyor...</i>
+        <i class="yourdrone2">Yükleniyor...</i>
+        <i class="yourdrone3">Yükleniyor...</i>
+        <i class="yourdrone4">Yükleniyor...</i>
+        <i class="yourdrone5">Yükleniyor...</i>
+        <i class="yourdrone6">Yükleniyor...</i>
+        <i class="yourdrone7">Yükleniyor...</i>
+        <i class="yourdrone8">Yükleniyor...</i>
+        <i class="yourdrone9">Yükleniyor...</i>
+      </ul>
+      <ul class="fordroneul">
+        <i class="fordronei1">Yükleniyor...</i>
+        <i class="fordronei2">Yükleniyor...</i>
+        <i class="fordronei3">Yükleniyor...</i>
+        <i class="fordronei4">Yükleniyor...</i>
+        <i class="fordronei5">Yükleniyor...</i>
+        <i class="fordronei6">Yükleniyor...</i>
+        <i class="fordronei7">Yükleniyor...</i>
+        <i class="fordronei8">Yükleniyor...</i>
+        <i class="fordronei9">Yükleniyor...</i>
+      </ul>
+    </div>
+    <div class="dronesearch">
+      <select id="dji-drones" name="drones">
+        <option value="" disabled selected>Lütfen bir model seçin</option>
+        <optgroup label="DJI Mavic Serisi">
+          <option value="tello">Tello</option>
+          <option value="air">Air Serisi</option>
+          <option value="mavic">Mavic Serisi</option>
+        </optgroup>
+        <optgroup label="Profesyonel Drone Serisi">
+          <option value="phantom">Phantom Serisi</option>
+          <option value="inspire">Inspire Serisi</option>
+        </optgroup>
+        <optgroup label="Global Drone Serisi">
+          <option value="base">Başlangıç Seviyesi Drone</option>
+          <option value="medium">Orta Seviye Drone</option>
+          <option value="high">Yüksek Seviye & Tarım Drone</option>
+        </optgroup>
+      </select>
+    </div>
+    <div class="havadurumu">
+      <ul class="havadurumuul">
+        <p class="havadurumui1" id="city">Yükleniyor...</p>
+        <p class="havadurumui2" id="temperature">Yükleniyor...</p>
+        <p class="havadurumui3" id="wind">Yükleniyor...</p>
+        <p class="havadurumui4" id="wind-direction">Yükleniyor...</p>
+        <p class="havadurumui1" id="humidity">Yükleniyor...</p>
+        <p class="havadurumui2" id="pressure">Yükleniyor...</p>
+        <p class="havadurumui3" id="weather-desc">Yükleniyor...</p>
+        <p class="havadurumui4" id="visibility">Yükleniyor...</p>
+      </ul>
+    </div>
+    <div class="kullaniciuyarilari">
+      <ul class="kullaniciuyarilariul">
+        <p class="kullaniciuyarilarii1"><b>Kullanıcı Uyarıları</b></p>
+        <p class="kullaniciuyarilarii2" id ="kullaniciuyarilari2">Yükleniyor...</p>
+        <p class="kullaniciuyarilarii3" id ="kullaniciuyarilari3">Yükleniyor...</p>
+        <p class="kullaniciuyarilarii4" id ="kullaniciuyarilari4">Yükleniyor...</p>
+        <p class="kullaniciuyarilarii5" id ="kullaniciuyarilari5">Yükleniyor...</p>
+        <p class="kullaniciuyarilarii6" id ="kullaniciuyarilari6">Yükleniyor...</p>
+      </ul>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
