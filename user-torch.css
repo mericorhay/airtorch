@@ -26,8 +26,8 @@ body {
   position: absolute;
 }
 .harita:hover {
-  transform: scale(1.02); /* Hafif büyüme efekti */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Gölge derinleştirme */
+  transform: scale(1.02); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
 }
 .dronesearch {
   display: flex;
@@ -42,20 +42,20 @@ body {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: #f9f9f9; /* Daha yumuşak bir beyaz ton */
-  border: 1px solid #dcdcdc; /* Daha ince bir sınır ve yumuşak gri ton */
+  background-color: #f9f9f9; 
+  border: 1px solid #dcdcdc; 
   padding: 10px 10px;
   border-radius: 8px;
   font-size: 15px;
 }
 .fordrone {
   display: flex;
-  background-color: #f9f9f9; /* Daha yumuşak bir beyaz ton */
+  background-color: #f9f9f9; 
   width: 45%;
   height: 22%;
-  border-radius: 20px; /* Daha küçük ama zarif bir yuvarlatma */
-  border: 1px solid #dcdcdc; /* Daha ince bir sınır ve yumuşak gri ton */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  border-radius: 20px; 
+  border: 1px solid #dcdcdc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   position: absolute;
   left: 28%;
   top: 7%;
@@ -64,7 +64,7 @@ body {
   gap: 30%;
   padding: 20px;
   letter-spacing: 2px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Geçiş animasyonları */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
 
 .fordrone ul i {
