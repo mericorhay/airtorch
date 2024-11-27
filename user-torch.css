@@ -125,17 +125,17 @@ body {
 }
 
 .ads-container {
-  position: fixed;  /* Reklamın sayfada sabit kalmasını sağlar */
-  bottom: 0;        /* Reklamı sayfanın altına yerleştirir */
-  left: 0;          /* Reklamın sol köşeye hizalanmasını sağlar */
-  width: 100%;      /* Reklamın tüm ekran genişliğini kaplamasını sağlar */
-  text-align: center; /* Reklamı yatayda ortalar */
-  z-index: 9999;    /* Reklamın üst katmanda görünmesini sağlar */
-  padding: 10px 0;  /* Reklamın üst ve altındaki boşluk */
+  position: fixed;  
+  bottom: 0;        
+  left: 0;          
+  width: 100%;      
+  text-align: center; 
+  z-index: 9999;   
+  padding: 10px 0;  
   
 }
 
 .adsbygoogle {
-  margin: 0 auto;   /* Reklamı ortalar */
+  margin: 0 auto;   
 }
 
