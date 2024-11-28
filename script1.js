@@ -1,6 +1,6 @@
 
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibWVyaWNvcmhheSIsImEiOiJjbTQwMHc5MGMyNXMyMnFxejcybWRpNG4zIn0.K1ehxfYyN64Ts642z4ZAbA';
+mapboxgl.accessToken = 'api tokenınız';
 // Harita ayarları
 var map = new mapboxgl.Map({
     container: 'harita',
@@ -9,16 +9,16 @@ var map = new mapboxgl.Map({
     zoom: 12
 });
 
-// Global değişken tanımlama
+
 let data = null;
 
-// Geolocation kullanarak konum alma
+
 if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(
         async (position) => {
             const userLocation = [position.coords.longitude, position.coords.latitude];
 
-            // Haritayı kullanıcı konumuna odakla
+           
             map.flyTo({
                 center: userLocation,
                 zoom: 17,
@@ -27,7 +27,7 @@ if ('geolocation' in navigator) {
                 bearing: 0
             });
 
-            // Kullanıcı konumunu işaretlemek için marker ekle
+            
             new mapboxgl.Marker({ color: 'red' })
                 .setLngLat(userLocation)
                 .setPopup(new mapboxgl.Popup().setHTML('<b>Buradasınız</b>'))
@@ -58,10 +58,10 @@ const pressureElement = document.getElementById('pressure');
 const weatherDescElement = document.getElementById('weather-desc');
 const visibilityElement = document.getElementById('visibility');
 
-// OpenWeatherMap API bilgileri
-const API_KEY = 'c58638758b034dfca8edbd5fb31f7362';
 
-// Hava durumu bilgisi almak için fonksiyon
+const API_KEY = 'openweather api';
+
+
 async function fetchWeather(lat, lon) {
     const API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
 
@@ -85,7 +85,7 @@ async function fetchWeather(lat, lon) {
     }
 }
 
-// Uyarı mesajlarını kontrol eden fonksiyon
+
 function checkWarnings(data) {
     const kullaniciuyarilari = [
         document.getElementById('kullaniciuyarilari2'),
